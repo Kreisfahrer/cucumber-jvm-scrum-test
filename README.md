@@ -9,6 +9,8 @@ To run test you need:
     a) DARWIN-8273, 114 Subscribe to a Simple folder - Scenario: As Participant I want to subscribe to a folder
     b) DARWIN-4865, 112 Move files and folders to another destination using drag&drop - Scenario: As Participant I want to move files and folders to another destination using drag&drop
     c) DARWIN-4605, 110 Download multiple files - Scenario: As Observer I want to download multiple files
-6. When all tests are passed, you can find reports in {project_root_folder}\target\reports\cucumber\html
+6. All steps (tests are making) are located in following file: ..\cucumber-jvm-scrum-test\src\test\java\com\scrum\behavior\MyStepdefs.java
+7. File, which collects 'new.feature' and 'MyStepdefs.java' together and runs tests, is: ..\cucumber-jvm-scrum-test\src\test\java\com\scrum\MainTest.java
+7. When all tests are passed, you can find reports in {project_root_folder}\target\reports\cucumber\html
 
 Optionally you can open pom.xml in IntelliJ Idea and run tests from this IDE.
